@@ -1,0 +1,91 @@
+img{
+        width: 250px;
+        padding : 4px;
+        border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: left right;
+    align-items: top;
+    margin-top: 50px;
+    min-height: 100vh;
+    background: magenta;
+    background-size: cover;
+    background-position: center;
+}
+video{
+        width:250px;
+        margin: 10px;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(45deg, #1da1f2, #0099e5, #0064d2);
+        color: #ffffffff;
+ }
+input{
+             width: 799px;
+             height: 23px;
+             margin: 10px;
+             border-radius: 10px;
+             font-family: 'Roboto', sans-serif;
+             background: linear-gradient(45deg, #1da1f2, #0099e5, #0064d2);
+             color: #ffffffff;
+}
+
+header{
+       position: fixed;
+       top: 0;
+       width: 100%;
+       left: 0;
+       padding; 100px 20px;
+       display: flex;
+       background: purple;
+       align-items: center;
+       z-index: 99;
+       justify-content: space-between;
+}
+.logo{
+      font: 2em;
+      color: fff;
+      user-select: none;
+}
+.navigation{
+            position: relative;
+            font-size: 1.1em;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500
+            margin-left: 40px
+}.navigation a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            height: 3px;
+            background: white;
+            transform: scaleX(0);
+            transition: transform .5s;
+}
+.navigation a:hover:after {
+            transform-origin: left;
+            transform: scaleX(1);
+}
+.navigation .btnLogin-popup{
+       width: 130px;
+       height: 50px;
+       background: transparent;
+       border: 2px solid  #fff;
+       border-radius: 6px ;
+       outline: none;
+       cursor: pointer;
+       font-size: 1.1em;
+       color: #fff;
+       font-weight: 500;
+       margin-left: 100px;
+
+}
+.navigation .btnLogin-popup:hover{
+         background: #fff;
+         color: #1162938;
+
+}
+

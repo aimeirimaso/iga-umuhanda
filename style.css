@@ -1,0 +1,40 @@
+
+header{
+       position: fixed;
+       top: 0;
+       width: 100%;
+       left: 0;
+       padding; 100px 20px;
+       display: flex;
+       background: purple;
+       align-items: center;
+       z-index: 99;
+       justify-content: space-between;
+}
+.navigation{
+            position: relative;
+            font-size: 1.1em;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            margin-right: 40px;
+
+}
+body{
+    display: flex;
+    justify-content: left right;
+    align-items: top;
+    margin-top: 50px;
+    min-height: 100vh;
+    background: brown;
+    background-size: cover;
+    background-position: center;
+}
+p{
+margin-top: 50px;
+}
+
+body.h1{
+     margin-top: 50px;
+}
